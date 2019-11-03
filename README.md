@@ -1,6 +1,13 @@
 *Getting and Cleaning Data*
 *Programming Assignment*
 
+*Starting point are the test and training data X_test and X_train which are combined.*
+*Further the dataset is being filtered to columns containing only mean and std values*
+*The activity description from the y_train and y_test file is loaded*
+*The subject information is loaded from subject_test and subject_trian data files*
+*A new dataframe is created with mean values based in grouping by subject and activity*
+
+
 library(tools)
 library(tidyverse)
 
